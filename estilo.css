@@ -1,0 +1,38 @@
+body {
+	height: 100%
+	min-height: 100%;
+}
+
+header {
+    background-color: #A01716;
+    padding: 30px;
+    font-size: 35px;
+    color: white;
+}
+
+#logo {
+	height: 130px;
+}
+
+nav	{
+	width: 30%;
+	float: left;
+}
+
+article	{
+	width: 70%;
+	float: right;
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
+
+section	{
+	height: 80%
+}
+
+section:after {
+    content: "";
+    display: table;
+    clear: both;
+    height: 80%
+}
