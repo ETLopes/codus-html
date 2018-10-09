@@ -1,5 +1,5 @@
-body {
-	height: 100%
+html, body {
+	height: 100%;
 	min-height: 100%;
 }
 
@@ -15,24 +15,27 @@ header {
 }
 
 nav	{
+	background-color: orange;
+	height: 300px;
 	width: 30%;
 	float: left;
 }
 
 article	{
 	width: 70%;
+	height: 100%
 	float: right;
-	padding-top: 1%;
-	padding-bottom: 1%;
 }
 
 section	{
 	height: 80%
+	padding-top:100px;
+
 }
 
-section:after {
-    content: "";
-    display: table;
-    clear: both;
-    height: 80%
+#div-article {
+	padding: 20px;
+	text-align: justify;
 }
+
+
