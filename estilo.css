@@ -3,6 +3,10 @@ html, body {
 	min-height: 100%;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 header {
     background-color: #A01716;
     padding: 30px;
@@ -14,28 +18,42 @@ header {
 	height: 130px;
 }
 
-nav	{
+.navbar	{
+	position: absolute;
 	background-color: orange;
-	height: 300px;
+	height: 100%;
 	width: 30%;
 	float: left;
 }
 
-article	{
+.div-article	{
+	position: relative;
 	width: 70%;
-	height: 100%
-	float: right;
-}
-
-section	{
-	height: 80%
-	padding-top:100px;
-
-}
-
-#div-article {
-	padding: 20px;
+	margin-left: 32%;
+	padding-right: 10%;
+	float: left;
 	text-align: justify;
+
 }
 
+.pizza-home {
+	height: 130px;
+	width: 30%;
+	float: left;
+}
+
+.pizza-img	{
+	height: 100%;
+	width: 100%;
+}
+
+
+}
+
+@media (max-width: 600px) {
+    .navbar, .div-article {
+        width: 100%;
+        height: auto;
+    }
+}
 
