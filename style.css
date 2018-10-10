@@ -1,0 +1,19 @@
+.header, .menu, .content {
+	background-color: black;
+	border-radius: 10px;
+}
+
+.header {
+	width: 100%;
+}
+
+.menu {
+	float: left;
+	width: 20%;
+	background-color: gold;
+}
+
+.content {
+	float: left;
+	width: 80%;
+}
